@@ -1,0 +1,9 @@
+.product-card{
+    flex-basis: 25%;
+    background-color: white;
+    padding: 1rem;
+    border: 2px solid lighten($primary-color, 70%);
+    h3{
+      color: $primary-color
+    }
+  }

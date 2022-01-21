@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: black;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+header ul li a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1rem;
+}
+header ul li a:hover, header ul li a.active {
+  background-color: #a8c9ff;
+}
+
+main {
+  background-image: url("../img/fondo-pag-speciali.jpg");
+  padding: 3rem;
+  text-align: center;
+}
+main h1 {
+  color: #002D75;
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+main .boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  flex-basis: 25%;
+  background-color: white;
+  padding: 1rem;
+  border: 2px solid #dbe9ff;
+}
+.product-card h3 {
+  color: #002D75;
+}
+
+footer {
+  margin-top: 3rem;
+}
+footer .cols {
+  display: flex;
+}
+footer .cols .logo,
+footer .cols .footer-links {
+  flex-basis: calc(100%/3);
+}
+footer .cols .logo h4,
+footer .cols .footer-links h4 {
+  color: #002D75;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+footer .cols ul {
+  list-style: none;
+}
+footer .cols ul a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+footer .cols ul a:hover {
+  color: #002D75;
+}

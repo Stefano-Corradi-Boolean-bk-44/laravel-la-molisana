@@ -1,0 +1,14 @@
+main{
+    background-image: url('../img/fondo-pag-speciali.jpg');
+    padding: 3rem;
+    text-align: center;
+    h1{
+      color: $primary-color;
+      font-size: 20px;
+      margin-bottom: 1rem;
+    }
+    .boxes{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
